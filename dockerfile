@@ -1,11 +1,9 @@
 # docker run -d -p 3000:8080 
 # --add-host=host.docker.internal:host-gateway 
-# -v open-webui:/app/backend/data
+# -v open-webui:/app/backend/data 
 # --name open-webui 
-# --restart always ghcr.io/open-webui/open-webui:main
+# --restart always 
+# ghcr.io/open-webui/open-webui:main
+# ref: docs.openwebui.com 
 
-
-
-
-FROM ghcr.io/open-webui/open-webui:ollama
-
+FROM ghcr.io/open-webui/open-webui:main

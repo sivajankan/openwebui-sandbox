@@ -2,4 +2,4 @@
 
 ### ref: docs.openwebui.com 
 
-This is a docker sandbox for open web ui to use only CPU. 
+This is a docker sandbox for open web ui to use locally installed ollama.  
