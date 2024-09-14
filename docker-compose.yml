@@ -1,0 +1,11 @@
+services:
+  openwebui:
+    build: .
+    extra_hosts:
+      - host.docker.internal:host-gateway 
+
+    volumes:
+      - ./open-webui:/app/backend/data
+    
+    ports:
+      - 8080:8080
